@@ -2839,7 +2839,7 @@ void KaleidoScope_Update(PlayState* play) {
             }
 
             if (CHECK_QUEST_ITEM(QUEST_SONG_LULLABY)) {
-                pauseCtx->worldMapPoints[11] = 1;
+                pauseCtx->worldMapPoints[11] = 2;
             }
 
             if (GET_EVENTCHKINF(EVENTCHKINF_25)) {
